@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Speech Recognition Test</title>
+  <style>
+    #active-indicator {
+      visibility: hidden;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <button id="start-button">Start</button>
+    <button id="stop-button">Stop</button>
+    <span id="active-indicator">&#x2B24;</span>
+  </div>
+
+  <hr />
+  <div>
+    <button id="clear-results-button">Clear Results</button>
+  </div>
+  <br />
+  <label for="results">Results:</label>
+  <pre id="results"></pre>
+
+  <hr />
+  <div>
+    <button id="clear-messages-button">Clear Messages</button>
+  </div>
+  <br />
+  <label for="messages">Messages:</label>
+  <pre id="messages"></pre>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
