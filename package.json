@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "description": "Playing around with Web Speech API",
   "scripts": {
-    "start": "serve"
+    "start": "serve",
+    "deploy": "gh-pages -d ."
   },
   "author": "Jonathan Taylor",
   "license": "MIT",
   "dependencies": {
     "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
